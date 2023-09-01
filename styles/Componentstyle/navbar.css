@@ -1,0 +1,96 @@
+#header
+{
+  top: 0;
+  width: 100%;
+  height: 4.5rem;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 0.75rem 10rem 0.75rem 6.25rem;
+  align-items: center;
+  color: #FFFFFF; 
+  position: absolute;
+  z-index: 1;
+}
+#logo
+{
+  padding-top: 0.8rem;
+}
+#lang
+{
+  position: relative;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+#lang-image
+{
+  border: none;
+  height: 2rem;
+}
+#lang-icon
+{
+  height: 2rem;
+}
+.lang-btn
+{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  position: absolute;
+  background: var(--base-white, #FFF);
+  border-radius: 0.75rem;
+  height: 4rem;
+  width: 3rem;
+}
+.lang-btn button
+{
+  cursor: pointer;
+  border: none;
+  width: 3rem;
+  height: 1.5rem;
+  padding: 0.1rem;
+  display: flex;
+  justify-content: left;
+  background: transparent;
+  color: #1E1E1E;
+}
+.lang-btn button:hover
+{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), #FFF;
+}
+#lang:hover .lang-btn,
+#lang .lang-btn:hover {
+  display: block;
+}
+.trans-bg
+{
+  background: transparent;
+}
+.trans-bg:hover
+{
+  background: transparent;
+}
+#navbar
+{
+  margin-right: 10rem;
+  display: flex;
+  flex-direction: row;
+}
+#navbar a
+{
+  padding: 0.75rem 0.5rem;
+  margin-right: 2rem;
+  color: var(--lotion, #FAFAFA);
+  border-radius: 100px;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.14px;
+}
+#navbar a:hover
+{
+  cursor: pointer;
+  background-color: #ffffff18;
+}

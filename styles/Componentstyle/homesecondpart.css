@@ -1,0 +1,200 @@
+.second-part
+{
+  height: 100vh;
+  background: var(--rich-black, #090B18);
+}
+.about-us
+{
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  width: 75rem;
+  height: 6rem;
+  margin-left: 6.25rem;
+}
+#about-header
+{
+  color: var(--white, #FFF);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.75rem; /* 110% */
+  margin-top: 3rem;
+}
+#about-paragraph
+{
+  color: var(--white, #FFF);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /* 142.857% */
+  margin-top: 0.6rem
+}
+.sides
+{
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: flex-start;
+}
+.left-side
+{
+  margin-top: 3rem;
+  margin-left: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18rem;
+  margin-top: 5rem;
+}
+#percent
+{
+  color: var(--white, #FFF);
+  font-family: Montserrat;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04rem;  
+}
+#faster-data
+{
+  margin-top: 0.3rem;
+  color: var(--white, #FFF);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /* 142.857% */
+}
+.explore-our
+{
+	position:relative;
+	width: 7.5rem;
+	height: 16rem;
+	font-size: 20px;
+	text-align: center;
+	display: flex;
+  justify-content:center;
+}
+.explore-our span /* circleText'in her bir harfi */
+{
+  margin-top: 3rem;
+  position: absolute;
+	top: 0;
+	left: calc(50% - 2rem);
+	display: inline-block;
+	width: 4rem;
+	height: 4rem;
+	transform-origin: center bottom;
+  color: var(--white, #FFF);
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  line-height: 1.25rem; 
+  letter-spacing: 0.00875rem;
+}
+.vector1
+{
+  height: 7rem;
+  width: 0.075rem;
+  background-color: var(--vivid-gamboge, #F90);
+  display: flex;
+  float: inline-end;
+  position: absolute;
+  bottom: 2rem;
+}
+#point
+{
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background-color: var(--vivid-gamboge, #F90);
+  position: absolute;
+  bottom: 2rem;
+}
+#responses
+{ 
+  color: var(--white, #FFF);
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem; /* 125% */
+  letter-spacing: 0.01rem;
+}
+.mid
+{
+  margin-top: 3rem;
+  height: 30rem;
+  width: 36rem;
+}
+#office-img
+{
+  height: 28rem;
+  width: 32rem;
+  margin-top: 2rem;
+  background-color: aquamarine;
+}
+.right-side
+{
+  margin-top: 4.5rem;
+  height: 28rem;
+  width: 20rem;
+}
+#seventy
+{
+  color: var(--white, #FFF);
+  font-family: Montserrat;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+}
+#talented
+{
+  color: var(--white, #FFF);
+  font-family: Mecellem;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /* 142.857% */
+  padding-top: 0.3rem;
+}
+.talented-images
+{
+  margin-top: 1.25rem;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+}
+.talented-images div
+{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.vector2
+{
+  height: 0.2rem;
+  width: 100%;
+  margin: 3.2rem 0;
+  background-color: var(--vivid-gamboge, #F90);;
+}
+#we-therefore
+{
+  padding: 0 1.5rem;
+  color: var(--white, #FFF);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /* 142.857% */
+}
+.learn-btn2
+{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 17rem;
+}

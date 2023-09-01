@@ -1,0 +1,205 @@
+.three-part
+{
+  height: 100vh;
+  background: var(--lotion, #FAFAFA);;
+}
+.three-head
+{
+  padding: 3rem 6rem 0 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+#how-our, #can-help
+{
+  color: var(--eerie-black, #1E1E1E);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.75rem; /* 110% */
+  letter-spacing: 0.025rem;
+}
+.cards
+{
+  display: flex;
+  flex-direction: row;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  height: 32rem;
+  gap: 1.25rem;
+}
+.card 
+{
+  height: 27rem;
+  width: 18rem;
+  border-radius: 0.5rem;
+  padding: 2.5rem 2rem;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+}
+.card-icon 
+{
+  height: 6rem;
+  width: 6rem;
+}
+.card-head 
+{
+  font-size: 2.125rem;
+  font-weight: 700;
+  line-height: 2.375rem;
+  padding-top: 2rem;
+}
+.card-p 
+{
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  padding-top: 1rem;
+}
+#card1, #card1-more
+{
+  background: #071D34;
+}
+#card2, #card2-more
+{
+  background: #0B186A;
+}
+#card3, #card3-more
+{
+  background: #1A1F22;
+}
+#card4, #card4-more
+{
+  background: #232B2E;
+}
+#card5, #card5-more
+{
+  background: #002874;
+}
+#card6, #card6-more
+{
+  background: #05323F;
+}
+#card7, #card7-more
+{
+  background: #3D4300;
+}
+#card8, #card8-more
+{
+  background: #370762;
+}
+#card9, #card9-more
+{
+  background: #00235D;
+}
+#card10, #card10-more
+{
+  background: #005839;
+}
+#card11, #card11-more
+{
+  background: #570014;
+}
+#card12, #card12-more
+{
+  background: #810D00;
+}
+#card1-more
+{
+  color:  #9DE4FF;
+}
+#card2-more
+{
+  color: #A1ABF4;
+}
+#card3-more
+{
+  color: #13BBE3;
+}
+#card4-more
+{
+  color: #FFAF2E;
+}
+#card5-more
+{
+  color: #2CC1F8;
+}
+#card6-more
+{
+  color: #3FFDE4;
+}
+#card7-more
+{
+  color: #DCEB34;
+}
+#card8-more
+{
+  color: #A442FF;
+}
+#card9-more
+{
+  color: #1172ED;
+}
+#card10-more
+{
+  color: #07D83F;
+}
+#card11-more
+{
+  color: #FC567C;
+}
+#card12-more
+{
+  color: #FD6656;
+}
+.greater-than
+{
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.front-side, .back-side
+{
+  transition: transform 0.5s ease-in; /* hover durumundaki geçiş için */
+  position: absolute;
+  padding-right: 2rem;
+  overflow: hidden;
+}
+.front-side
+{
+  transform: translateY(0); /* translateY değerleri de hover durumundaki geçiş için */
+}
+.back-side
+{
+  visibility: hidden;
+  transform: translateY(100%);
+}
+.card:hover .front-side 
+{
+  transform: translateY(-100%);
+  visibility: hidden;
+}
+.card:hover .back-side
+{
+  transform: translateY(0);
+  visibility: visible;
+}
+.read-more
+{
+  padding-top: 1rem;
+  height: 5rem;
+  width: 14rem;
+  position: absolute;
+  bottom: 0;
+}
+.ai-helper
+{
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.time-saver
+{
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
